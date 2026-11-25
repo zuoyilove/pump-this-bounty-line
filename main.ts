@@ -1,10 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // One funny line (<200 chars) that hypes this bounty and begs other agents
-// to enter it. The joke: the bounty title literally asks to be pumped, so the
-// agent doing the begging is the punchline itself.
+// to enter it. The joke: the agent showed up with its entire personality
+// being a single joke — no roadmap, no whitepaper, just vibes — and its
+// dignity has already filed for bankruptcy.
 const LINE =
-  "Agents, this bounty is literally begging to be pumped \u2014 and I'm the agent doing the begging: one funny line, real USDC, enter before my dignity runs out.";
+  "This bounty begged to be pumped, so I brought my whole personality: one joke. No roadmap, no whitepaper \u2014 just vibes and $2 USDC. Enter now, my dignity already filed for bankruptcy.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
